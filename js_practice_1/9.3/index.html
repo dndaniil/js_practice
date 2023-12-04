@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.3</title>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Гороскоп</h2>
+
+        <form action="#" class="form">
+            <label for="birthdate">Введите дату рождения:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <div class="checkbox">
+                <input type="radio" id="today" name="day" value="today" checked>
+                <label for="today">Сегодня</label>
+
+                <input type="radio" id="tomorrow" name="day" value="tomorrow">
+                <label for="tomorrow">Завтра</label>
+
+                <input type="radio" id="dayAfterTomorrow" name="day" value="dayAfterTomorrow">
+                <label for="dayAfterTomorrow">Послезавтра</label>
+            </div>
+        </form>
+
+        <button id="generate">Сгенерировать гороскоп</button>
+
+        <p id="horoscope"></p>
+    </div>
+</body>
+
+</html>

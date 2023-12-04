@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/*Обертка окна и клавиатуры*/
+#windowAndkeyboard {
+    max-width: 600px;
+    min-width: 300px;
+    border: 2px solid rgb(225,225,225);
+    margin: 10px auto;
+}
+ 
+/*Экран для клавиатуры*/
+#windowScreen {
+    height: 150px;
+    padding: 20px;
+    font-size: 30px;
+}
+ 
+/*Обертка клавиатуры*/
+#keyboard {
+    margin: 0;
+    padding: 10px 0 10px;
+    background: linear-gradient(to top, rgb(75,75,75), rgb(225,225,225));
+}
+ 
+/*Ряды кнопок*/
+#firstLine, #secondLine, #thirdLine {
+    text-align: center;
+}
+ 
+/*Сами кнопки*/
+#firstLine > div, #secondLine > div, #thirdLine > div {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid rgb(180,180,180);
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 3px;
+    background-color: rgb(220,220,220);
+    text-shadow: 1px 1px rgb(200,200,200);
+}
+ 
+/*Кнопки при нажатии*/
+#firstLine > div:active, #secondLine > div:active, #thirdLine > div:active {
+    background-color: rgb(150,150,150);
+}

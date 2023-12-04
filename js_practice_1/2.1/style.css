@@ -1,0 +1,12 @@
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 30px;
+}
+.result {
+    width: 270px;
+    background-color: rgb(166, 159, 255);
+}
